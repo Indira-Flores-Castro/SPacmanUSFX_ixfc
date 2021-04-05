@@ -144,10 +144,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="fantasma.cpp" />
+    <ClCompile Include="Frutita.cpp" />
+    <ClCompile Include="Muro.cpp" />
+    <ClCompile Include="Pacman.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="fantasma.h" />
+    <ClInclude Include="Frutita.h" />
+    <ClInclude Include="Muro.h" />
+    <ClInclude Include="Pacman.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
